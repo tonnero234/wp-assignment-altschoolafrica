@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-color: rgba(29, 44, 60, 1);
 }
 
 .page-container{
@@ -48,8 +49,8 @@ padding: 50px 50px 50px 50px;
     background: #1179BF; border-top-left-radius: 6px; border-top-right-radius: 6px;
     width: 50%; height: 70%; float: right;
     margin-right: 200px;
-    margin-top: 30px;
-    padding: 50px 50px 50px 50px;
+    margin-top: 5px;
+    padding:  50px 50px 50px 50px;
     color: white;
 }
 #sup{
@@ -62,7 +63,7 @@ padding: 50px 50px 50px 50px;
     text-decoration: underline ;
 }
 .kirk-img{
-    display: flex;
+    display: flex
 }
 .kirk-name{
     margin-left: 5px;
@@ -95,3 +96,8 @@ flex-direction: column;
     font-weight: bold;
 };
 
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
