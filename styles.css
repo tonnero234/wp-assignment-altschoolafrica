@@ -73,12 +73,13 @@ padding: 50px 50px 50px 50px;
 }
 .submit-btn{
 display: flex;
-flex-direction: column;
+flex-direction: row;
 }
 
 .payment-section{
     display: flex;
     flex-direction: column;
+    
 }
 .Basic-information{
     display: flex;
@@ -90,10 +91,12 @@ flex-direction: column;
 .payment-information{
     p{
         font-weight: bold;
+        margin-left: 30px;
     }
 }
 #basic-info{
     font-weight: bold;
+    margin-left: 30px;
 };
 
 .footer{
@@ -101,3 +104,33 @@ flex-direction: column;
     flex-direction: row;
     align-items: center;
 }
+
+.oval-image-1 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: -35px;
+  }
+
+  .oval-image-2 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: -35px;
+  }
+
+  .form-container input{
+    height: 36px;
+  }
+
+  .swipe-log{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
